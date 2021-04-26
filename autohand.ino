@@ -7,7 +7,6 @@ int pirState = 0;
 
 void setup() {
   Serial.begin(9600);
-  Serial.println("Micro Project Thailand ~^.^~ ");
   pinMode(Pump, OUTPUT); //เพื่อให้ปั้มout put ต่อออกขา2 DG
   pinMode(pir, INPUT); //ประกาศpirเป็นตัวอ่าน sensor 
 }
@@ -29,3 +28,8 @@ void loop() {
   }
 
 }
+//อุปกรณ์
+//PIR Motion Sensor Module  ->  Arduino
+//+5V -> 5V
+//Gnd -> Gnd
+//Output -> pin3
