@@ -28,6 +28,7 @@ void loop() {
   }
 
 }
+
 //อุปกรณ์
 //PIR Motion Sensor Module  ->  Arduino
 //+5V -> 5V
